@@ -1,0 +1,18 @@
+# 基金日报自动生成工具 - Python 依赖
+# 安装方式: pip install -r requirements.txt
+
+# 网络请求（调用天天基金API和DeepSeek API）
+requests>=2.28.0
+
+# AI分析（DeepSeek API）
+openai>=1.0.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 全球指数数据（标普500、纳斯达克等）
+yfinance>=0.2.0
+
+# 可选: 若需要更多国内金融数据可取消注释
+# akshare>=1.14.0
